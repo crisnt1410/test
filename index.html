@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <figure style="display:flex;flex-direction: column;align-items: center;">
+        <img width="300px" height="auto" src="https://ebest.vn/wp-content/uploads/2021/06/7-hang-dang-thuc-dang-nho.jpg">
+        <h3 style="text-align:center">7 hằng đẳng thức đáng nhớ</h3>
+    </figure>
+    <div style="display:flex;justify-content:space-around;flex-flow:wrap;gap:1rem;border:4px double black;padding:2rem;font-family:monospace;font-size:large;">
+        <div style="border:2px solid black;padding:1rem">
+            <h1>Hằng đẳng thức số 1</h1>
+            <h4>(A + B)<sup>2</sup> = A<sup>2</sup> + 2AB + B<sup>2</sup></h4>
+            <label>
+                Hệ số A: <input type="text" id="hdt1_a" placeholder="Không nhập chữ"><br><br>
+            </label>
+            <label>
+                Hệ số B: <input type="text" id="hdt1_b" placeholder="Không nhập chữ">
+                <p id="ketqua1">Kết quả:</p>
+                <button style="margin-left:9.5rem" id="submit1">
+                    <p style="margin:0;font-weight:bold;padding:0.5rem;">Gửi</p>
+                    </button>            
+            </label>        
+        </div>
+
+        <div style="border:2px solid black;padding:1rem">
+            <h1>Hằng đẳng thức số 2</h1>
+            <h4>(A - B)<sup>2</sup> = A<sup>2</sup> - 2AB + B<sup>2</sup></h4>
+            <label>
+                Hệ số A: <input type="text" id="hdt2_a" placeholder="Không nhập chữ"><br><br>
+            </label>
+            <label>
+                Hệ số B: <input type="text" id="hdt2_b" placeholder="Không nhập chữ">
+                <p id="ketqua2">Kết quả:</p>
+            </label>
+            <button style="margin-left:9.5rem" id="submit2">
+                <p style="margin:0;font-weight:bold;padding:0.5rem;">Gửi</p>
+            </button>
+        </div>
+
+        <div style="border:2px solid black;padding:1rem">
+            <h1>Hằng đẳng thức số 3</h1>
+            <h4>A<sup>2</sup> - B<sup>2</sup> = (A - B) ( A + B ) </h4>
+            <label>
+                Hệ số A: <input type="text" id="hdt3_a" placeholder="Không nhập chữ"><br><br>
+            </label>
+            <label>
+                Hệ số B: <input type="text" id="hdt3_b" placeholder="Không nhập chữ">
+                <p id="ketqua3">Kết quả:</p>
+            </label>
+            <button style="margin-left:9.5rem" id="submit3">
+                <p style="margin:0;font-weight:bold;padding:0.5rem;">Gửi</p>
+            </button>
+        </div>
+
+        <div style="border:2px solid black;padding:1rem">
+            <h1>Hằng đẳng thức số 4</h1>
+            <h4>( A + B )<sup>3</sup> = A<sup>3</sup> + 3A<sup>2</sup>B + 3AB<sup>3</sup> + B<sup>3</sup></h4>
+            <label>
+                Hệ số A: <input type="text" id="hdt4_a" placeholder="Không nhập chữ"><br><br>
+            </label>
+            <label>
+                Hệ số B: <input type="text" id="hdt4_b" placeholder="Không nhập chữ">
+                <p id="ketqua4">Kết quả:</p>
+            </label>
+            <button style="margin-left:9.5rem" id="submit4">
+                <p style="margin:0;font-weight:bold;padding:0.5rem;">Gửi</p>
+            </button>
+        </div>
+
+        <div style="border:2px solid black;padding:1rem">
+            <h1>Hằng đẳng thức số 5</h1>
+            <h4>( A - B )<sup>3</sup> = A<sup>3</sup> - 3A<sup>2</sup>B + 3AB<sup>3</sup> - B<sup>3</sup></h4>
+            <label>
+                Hệ số A: <input type="text" id="hdt5_a" placeholder="Không nhập chữ"><br><br>
+            </label>
+            <label>
+                Hệ số B: <input type="text" id="hdt5_b" placeholder="Không nhập chữ">
+                <p id="ketqua5">Kết quả:</p>
+            </label>
+            <button style="margin-left:9.5rem" id="submit5">
+                <p style="margin:0;font-weight:bold;padding:0.5rem;">Gửi</p>
+            </button>
+        </div>
+
+        <div style="border:2px solid black;padding:1rem">
+            <h1>Hằng đẳng thức số 6</h1>
+            <h4>A<sup>3</sup> + B<sup>3</sup> = (A + B)(A<sup>2</sup> - AB + B<sup>2</sup>)</h4>
+            <label>
+                Hệ số A: <input type="text" id="hdt6_a" placeholder="Không nhập chữ"><br><br>
+            </label>
+            <label>
+                Hệ số B: <input type="text" id="hdt6_b" placeholder="Không nhập chữ">
+                <p id="ketqua6">Kết quả:</p>
+            </label>
+            <button style="margin-left:9.5rem" id="submit6">
+                <p style="margin:0;font-weight:bold;padding:0.5rem;">Gửi</p>
+            </button>
+        </div>
+
+        <div style="border:2px solid black;padding:1rem">
+            <h1>Hằng đẳng thức số 7</h1>
+            <h4>A<sup>3</sup> - B<sup>3</sup> = (A - B)(A<sup>2</sup> + AB + B<sup>2</sup>)</h4>
+            <label>
+                Hệ số A: <input type="text" id="hdt7_a" placeholder="Không nhập chữ"><br><br>
+            </label>
+            <label>
+                Hệ số B: <input type="text" id="hdt7_b" placeholder="Không nhập chữ">
+                <p id="ketqua7">Kết quả:</p>
+            </label>
+            <button style="margin-left:9.5rem" id="submit7">
+                <p style="margin:0;font-weight:bold;padding:0.5rem;">Gửi</p>
+            </button>
+        </div>
+
+        <script src="index.js"></script>
+    </div>
+    <footer><p style="text-align: center;font-weight:600;font-family:'Roboto',sans-serif;">&copy; ChangNguyen All Right Reserved</p></footer>
+</body>
+</html>
